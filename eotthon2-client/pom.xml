@@ -9,7 +9,7 @@
     <description>The eotthon2 frontend project</description>
 
     <parent>
-        <groupId>com.eotthon2</groupId>
+        <groupId>hu.eotthon2</groupId>
         <artifactId>parent</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
