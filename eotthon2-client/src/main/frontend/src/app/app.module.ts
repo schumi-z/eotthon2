@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { GyogyszerDetailComponent } from './gyogyszer-detail.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+	GyogyszerDetailComponent
   ],
   imports: [
     BrowserModule,

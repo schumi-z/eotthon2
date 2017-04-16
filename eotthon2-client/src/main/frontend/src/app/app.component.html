@@ -1,3 +1,16 @@
 <h1>
   {{title}}
 </h1>
+
+<div>
+
+	<ul class="gyogyszerek">
+      <li *ngFor="let gyogyszer of gyogyszerek"
+        (click)="onSelect(gyogyszer)">
+        <span class="badge">{{gyogyszer.id}}</span> {{gyogyszer.name}}
+      </li>
+    </ul>
+	
+	<gyogyszer-detail [gyogyszer]="selectedGyogyszer"></gyogyszer-detail>
+
+</div>
