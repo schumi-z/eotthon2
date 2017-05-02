@@ -6,7 +6,7 @@
 	<groupId>hu.eotthon2</groupId>
 	<artifactId>eotthon2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 
 	<name>eotthon2</name>
 	<description>eotthon2 angular applicaztion</description>
